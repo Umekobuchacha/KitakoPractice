@@ -10,8 +10,44 @@ namespace KitakoPractice
     {
         static void Main(string[] args)
         {
-            Exec1_12();
+            Exec7_4();
             Console.ReadKey();
+        }
+
+        private static void Exec7_4()
+        {
+            CDog dog = new CDog("秋田犬");
+            dog.Name = "ポチ";
+            dog.Age = 17;
+            dog.ShowProfile();
+
+        }
+
+        private static void Exec7_3()
+        {
+            CDog dog1 = new CDog();
+            CDog dog2 = new CDog();
+            dog1.Name = "ポチ";
+            dog2.Name = "太郎";
+            dog1.Age = 17;
+            dog2.Age = 9;
+            dog1.ShowProfile();
+            dog2.ShowProfile();
+        }
+
+        private static void Exec7_2()
+        {
+            CDog dog = new CDog();
+            dog.Name = "ポチ";
+            dog.Age = 17;
+            dog.ShowProfile();
+        }
+
+        private static void Exec7_1()
+        {
+            CDog dog = new CDog();
+            dog.Name = "ポチ";
+            dog.ShowProfile();
         }
 
         private static void Exec1_12()
