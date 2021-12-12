@@ -10,8 +10,27 @@ namespace KitakoPractice
     {
         static void Main(string[] args)
         {
-            Exec1_10();
+            Exec1_12();
             Console.ReadKey();
+        }
+
+        private static void Exec1_12()
+        {
+            int x = 10;
+
+            x++;
+            Console.WriteLine(x);
+            x--;
+            x--;
+            Console.WriteLine(x);
+        }
+
+        private static void Exec1_11()
+        {
+            int x = 13;
+
+            Console.WriteLine("商={0}, 余り={1}", x / 5, x % 5);
+
         }
 
         private static void Exec1_10()
